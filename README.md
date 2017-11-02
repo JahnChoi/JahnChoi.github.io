@@ -1,2 +1,0 @@
-# JahnChoi.github.io
-Website
