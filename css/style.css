@@ -1,8 +1,33 @@
-#main-title {
-    text-align: center;
-    background-color: rgba(100, 148, 237, 0.596);
+body {
+    font-family: 'Kanit', sans-serif;;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
 }
 
-.link {
+/* Globals */
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
     text-align: center;
+}
+
+/* Footer */
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
 }
