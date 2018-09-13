@@ -7,9 +7,9 @@ body {
 
 /* Globals */
 .container {
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 ul {
@@ -30,4 +30,8 @@ footer ul {
 footer li {
     list-style: none;
     display: inline;
+}
+
+.large-icon {
+    font-size: 3em;
 }
