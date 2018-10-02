@@ -52,6 +52,10 @@ header {
 /* About */
 #about p {
     font-style: italic;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s ease-in forwards;
+    -moz-animation: fadeIn 1s ease-in forwards;
+    animation: fadeIn 1s ease-in forwards;
 }
 
 /* Footer */
@@ -68,16 +72,22 @@ footer li {
     animation: fadeIn 0.5s ease-in forwards;
 }
 
-footer li:nth-child(2) {
+footer li:nth-child(1) {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
 
-footer li:nth-child(3) {
+footer li:nth-child(2) {
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
 	animation-delay: 1s;
+}
+
+footer li:nth-child(3) {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
 
 .large-icon {
