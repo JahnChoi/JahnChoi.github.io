@@ -51,7 +51,7 @@ header {
 
 /* About */
 #about p {
-
+    font-style: italic;
 }
 
 /* Footer */
