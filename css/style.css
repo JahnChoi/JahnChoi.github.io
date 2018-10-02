@@ -44,7 +44,7 @@ ul {
 }
 
 /* Header */
-header {
+header h1 {
     font-family: 'Source Code Pro', monospace;
     text-align: center;
 }
@@ -56,6 +56,15 @@ header {
     -webkit-animation: fadeIn 1s ease-in forwards;
     -moz-animation: fadeIn 1s ease-in forwards;
     animation: fadeIn 1s ease-in forwards;
+}
+
+#about a {
+    text-decoration: none;
+    color: black;
+}
+
+#about a:hover {
+    color: blanchedalmond;
 }
 
 /* Footer */
