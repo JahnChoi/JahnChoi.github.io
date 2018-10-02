@@ -49,6 +49,11 @@ header h1 {
     text-align: center;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
 /* About */
 #about p {
     font-style: italic;
